@@ -1,0 +1,21 @@
+PC
+ctrl-c - copy
+ctrl-v - paste
+ctrl-s - save
+ctrl-r - refresh browser
+alt-tab - switch to last open application
+Ctrl+P - Quick Open, Go to File…
+Alt+ ↑ / ↓ - Move line up/down
+Shift+Alt + ↓ / ↑ - Copy line up/down
+Alt+Z - Toggle word wrap
+
+MAC
+cmd-c - copy
+cmd-v - paste
+cmd-s - save
+cmd-r - refresh browser
+cmd-tab - switch to last open application
+⌘P Quick Open, Go to File…
+⌥↓ / ⌥↑ Move line down/up
+⇧⌥↓ / ⇧⌥↑ Copy line down/up
+⌥Z Toggle word wrap

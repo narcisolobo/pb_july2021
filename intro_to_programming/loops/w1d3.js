@@ -75,3 +75,32 @@ while(num <= 10) {
 
 // CHALLENGE:
 // Rewrite all previous for loops as while loops.
+
+//6
+
+console.log(11 % 2 == 0)
+
+console.log("All odd integers from 1 to 255 with modulo")
+
+for(var i = 1; i <= 255; i++) {
+  // We have to check if i is odd
+  if(i % 2 != 0){
+    console.log(i)
+  }
+}
+
+
+//with While
+
+
+console.log(11 % 2 == 0)
+
+console.log("All odd integers from 1 to 255 with modulo")
+var num = 1
+while(num <= 255) {
+  if(num % 2 != 0) {
+    console.log(num)
+    console.log("we have found an odd integer")
+  }
+  num++
+}
