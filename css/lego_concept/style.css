@@ -21,31 +21,44 @@ h1 {
   padding: 10px 20px;
 }
 
+#navbar ul {
+  list-style: none;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #navbar li {
-  display: inline-block;
-  margin-right: 40px;
+  /* display: inline-block; */
+  /* margin-right: 40px; */
 }
 
 #content {
   background-color: lavender;
   height: 400px;
+  display: flex;
+  gap: 20px;
 }
 
 #main {
   background-color: green;
-  width: 695px;
-  display: inline-block;
   min-height: 400px;
+  flex:2;
 }
 
 #sidebar {
   background-color: lightblue;
-  width: 300px;
-  display: inline-block;
   min-height: 400px;
+  flex:1;
 }
 
 #footer {
   background-color: hotpink;
   min-height: 100px;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
 }
